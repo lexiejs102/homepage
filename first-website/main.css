@@ -1,0 +1,34 @@
+body {
+    background-color: lavender;
+    font-family:sans-serif;
+}
+
+p {
+    font-size:20px;
+    color: cornflowerblue;
+    background-color:rgb(140,250,23);
+    padding:10px;
+    margin:30px;
+}
+
+.special {
+    border: 10px inset rgb(246, 173, 231);
+    padding:30px;
+    background-color:gold;
+    text-align:center;
+}
+
+h1 {
+    font-size:50px;
+    font-weight:normal;
+    font-style:italic;
+}
+
+.highlight {
+    border: 5px dashed yellowgreen;
+    padding: 10px;
+}
+
+img {
+    max-width:100%;
+}
