@@ -1,0 +1,102 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+   overflow-y:hidden;
+}
+
+img{
+    max-width:100%;
+    max-height:110vh;
+}
+
+main {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.box {
+    display:flex;
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    
+}
+
+.text {
+    font-family: "IBM Plex Mono", monospace;
+    color:rgb(143, 158, 96);
+}
+
+.closed, .ladygaga, .pesto, .kirby {
+    display:none;
+    
+}
+
+@media screen and (max-width:100vw) {
+    .first {
+        display:block;
+    }
+}
+
+@media screen and (max-width:1450px) {
+    .first {
+        display:none;
+    }
+
+    .closed {
+        display:block;
+    }
+}
+
+@media screen and (max-width:1350px) {
+    .closed {
+        display:none;
+    }
+
+    .ladygaga {
+        display:block;
+    }
+}
+
+@media screen and (max-width:1200px) {
+   .ladygaga {
+        display:none;
+   }
+
+    .closed {
+        display:block
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .closed {
+        display:none;
+    }
+
+    .pesto {
+        display:block;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .pesto {
+        display:none;
+    }
+
+    .closed {
+        display:block;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .closed {
+        display:none;
+    }
+
+    .kirby {
+        display:block;
+    }
+}

@@ -1,0 +1,103 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    background:rgba(249, 222, 226, 0.958);
+    transition: background 1s, font-size 1s;
+    color:darkslategray;
+}
+
+img{
+    max-width:100%;
+}
+
+/* header {
+    border: 1px solid;
+}
+
+footer {
+    border: 1px solid;
+} */
+
+/* main div {
+    border: 1px solid;
+    display:flex;
+    gap:10px;
+} */
+
+.container {
+    max-width:1100px;
+    margin:0 auto;
+}
+
+header, footer, .left, .right, .center {
+    border: 1px solid;
+    padding: 20px;
+}
+
+header, footer {
+    text-align:center;
+}
+
+main {
+    display:flex;
+    margin:10px 0;
+    gap: 10px;
+    
+}
+
+.left, .right {
+    width:25%;
+}
+
+.center {
+    width:50%;
+}
+
+.left {
+    transition: background 1s;
+}
+
+.left:hover {
+    background: lightcyan;
+}
+
+
+/* max-width = desktop-first design */
+/* min-width = mobile-first design */
+
+/* start with bigger screen sizers and go smaller from there */
+
+/* tablet styles */
+@media screen and (max-width:900px) {
+    body {
+        background-color:darkkhaki;
+    }
+
+     main {
+        flex-wrap:wrap;
+        
+    }
+
+    .left {
+        width:100%;
+    }
+
+   .center, .right {
+        width:calc(50% - 5px);
+    }
+}
+
+/* phone styles */
+@media screen and (max-width:600px) {
+    body {
+        background-color:rgba(197, 255, 247, 0.821);
+        font-size:150%;
+    }
+
+    .center, .right {
+        width:100%;
+    }
+
+}

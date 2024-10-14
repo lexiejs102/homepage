@@ -1,0 +1,476 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+}
+
+img {
+    max-width:100%;
+}
+
+.rain {
+    
+}
+.main-container {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    background-color:rgba(203, 236, 248, 0.857);
+    margin:0;
+   
+}
+
+
+@keyframes plus {
+    0% {color:rgb(197, 222, 243);}
+    25% {color:rgb(175, 207, 235);}
+    50% {color:rgb(67, 161, 242);}
+    100% {color:rgb(46, 112, 170);}
+}
+.plus {
+    font-size: 30px;
+    animation-name: plus;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction:alternate-reverse;
+}
+
+#one {
+    position:relative;
+    top:50px;
+    left:100px;
+}
+
+#two {
+    position:relative;
+    top:200px;
+    left:200px;
+}
+
+#three {
+    position:relative;
+    top:500px;
+    left:500px;
+}
+
+#four {
+    position:relative;
+    top:700px;
+    left:400px;
+}
+
+#five {
+    position:relative;
+    top:200px;
+    left:600px;
+}
+
+#six {
+    position:relative;
+    top:30px;
+    left:1000px;
+}
+
+#seven {
+    position:relative;
+    top:600px;
+    left:1200px;
+}
+
+#eight {
+    position:relative;
+    top:60px;
+    left:1100px;
+}
+
+#nine {
+    position:relative;
+    top:300px;
+    left:300px;
+}
+
+#ten {
+    position:relative;
+    top:300px;
+    left:1300px;
+}
+
+#eleven {
+    position:relative;
+    top:350px;
+    left:800px;
+}
+
+#twelve {
+    position:relative;
+    top:-300px;
+    left:1250px;
+}
+
+#thirteen {
+    position:relative;
+    top:300px;
+    left:600px;
+}
+
+#fourteen {
+    position:relative;
+    top:-300px;
+    left:700px;
+}
+
+#fifteen {
+    position:relative;
+    top:-100px;
+    left:900px;
+}
+
+#sixteen {
+    position:relative;
+    top:-50px;
+    left:1400px;
+}
+
+@keyframes line {
+    0% {color:rgb(197, 222, 243);}
+    25% {color:rgb(175, 207, 235);}
+    50% {color:rgb(67, 161, 242);}
+    100% {color:rgb(46, 112, 170);}
+}
+.line {
+    font-size:40px;
+    animation-name: line;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction:alternate;
+}
+
+#onee {
+    position:relative;
+    top:100px;
+    left:150px;
+}
+
+#twoo {
+    position:relative;
+    top:-600px;
+    left:600px;
+}
+
+#threee {
+    position:relative;
+    top:-300px;
+    left:800px;
+}
+
+#fourr {
+    position:relative;
+    top:-500px;
+    left:75px;
+}
+
+#fivee {
+    position:relative;
+    top:-500px;
+    left:1200px;
+}
+
+#sixx {
+    position:relative;
+    top:-200px;
+    left:1000px;
+}
+
+#sevenn {
+    position:relative;
+    top:-900px;
+    left:200px;
+}
+
+#eightt {
+    position:relative;
+    top:-550px;
+    left:400px;
+}
+
+#ninee {
+    position:relative;
+    top:-800px;
+    left:900px;
+}
+
+#tenn {
+    position:relative;
+    top:-900px;
+    left:1400px;
+}
+
+#elevenn {
+    position:relative;
+    top:-950px;
+    left:300px;
+}
+
+#twelvee {
+    position:relative;
+    top:-500px;
+    left:670px;
+}
+
+#thirteenn {
+    position:relative;
+    top:-650px;
+    left:1300px;
+}
+
+#fourteenn {
+    position:relative;
+    top:-600px;
+    left:200px;
+}
+
+#fifteenn {
+    position:relative;
+    top:-1000px;
+    left:450px;
+}
+
+#sixteenn {
+    position:relative;
+    top:-1200px;
+    left:1000px;
+}
+
+#seventeenn {
+    position:relative;
+    top:-1000px;
+    left:770px;
+}
+
+#eighteenn {
+    position: relative;
+    top:-900px;
+    left:1050px;
+}
+
+#nineteenn {
+    position: relative;
+    top:-650px;
+    left:1450px;
+}
+
+#twentyy {
+    position:relative;
+    top:-1250px;
+    left:1250px;
+}
+
+@keyframes zero {
+    0% {color:rgb(197, 222, 243);}
+    25% {color:rgb(67, 161, 242);}
+    50% {color:rgb(175, 207, 235);}
+    100% {color:rgb(46, 112, 170);}
+}
+.zero {
+    font-size:22px;
+    animation-name:zero;
+    animation-duration:6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction:alternate-reverse;
+}
+
+#oone {
+    position:relative;
+    top:-1000px;
+    left:50px;
+}
+
+#ttwo {
+    position:relative;
+    top:-1300px;
+    left:1100px;
+}
+
+#tthree {
+    position:relative;
+    top:-1250px;
+    left:700px;
+}
+
+#ffour {
+    position:relative;
+    top:-1400px;
+    left:360px;
+}
+
+#ffive {
+    position:relative;
+    top:-1000px;
+    left:860px;
+}
+
+#ssix {
+    position:relative;
+    top:-1150px;
+    left:1170px;
+}
+
+#sseven {
+    position:relative;
+    top:-900px;
+    left:240px;
+}
+
+#eeight {
+    position:relative;
+    top:-970px;
+    left:1100px;
+}
+
+#nnine {
+    position:relative;
+    top:-1300px;
+    left:250px;
+}
+
+#tten {
+    position:relative;
+    top:-1500px;
+    left:1450px;
+}
+
+@keyframes dot {
+    0% {color:rgb(175, 207, 235);}
+    25% {color:rgb(197, 222, 243);}
+    50% {color:rgb(67, 161, 242);}
+    100% {color:rgb(46, 112, 170);}
+}
+.dot {
+    font-size:50px;
+    animation-name: dot;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction:alternate;
+}
+
+#un {
+    position:relative;
+    top:-1500px;
+    left:400px;
+}
+
+#deux {
+    position:relative;
+    top:-1350px;
+    left:470px;
+}
+
+#trois {
+    position:relative;
+    top:-1800px;
+    left:800px;
+}
+
+#quatre {
+    position:relative;
+    top:-1600px;
+    left:1350px;
+}
+
+#cinq {
+    position:relative;
+    top:-1300px;
+    left:1220px;
+}
+
+#siix {
+    position:relative;
+    top:-1300px;
+    left:120px;
+}
+
+#sept {
+    position:relative;
+    top:-1750px;
+    left:130px;
+}
+
+#huit {
+    position:relative;
+    top:-2120px;
+    left:500px;
+}
+
+#neuf {
+    position:relative;
+    top:-1900px;
+    left:950px;
+}
+
+#dix {
+    position:relative;
+    top:-1800px;
+    left:770px;
+}
+
+#onze {
+    position:relative;
+    top:-1640px;
+    left:970px;
+}
+
+#douze {
+    position:relative;
+    top:-2200px;
+    left:650px;
+}
+
+#treize {
+    position:relative;
+    top:-2350px;
+    left:1080px;
+}
+
+#quatorze {
+    position:relative;
+    top:-1750px;
+    left:550px;
+}
+
+#quinze {
+    position:relative;
+    top:-2300px;
+    left:1320px;
+}
+
+#seize {
+    position:relative;
+    top:-2000px;
+    left:1415px;
+}
+
+#dix-sept {
+    position:relative;
+    top:-2000px;
+    left:350px;
+}
+
+#dix-huit {
+    position:relative;
+    top:-2210px;
+    left:325px;
+}
+
+#dix-neuf {
+    position:relative;
+    top:-2650px;
+    left:25px;
+}
+
+#vingt {
+    position:relative;
+    top:-2750px;
+    left:1470px;
+}

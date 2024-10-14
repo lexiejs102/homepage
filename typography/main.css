@@ -1,0 +1,42 @@
+* {
+    box-sizing:border-box;
+}
+
+img{
+    max-width:100%;
+}
+
+@font-face {
+    font-family: 'terminal_grotesqueregular';
+    src: url('terminal-grotesque_open-webfont.woff2') format('woff2'),
+         url('terminal-grotesque_open-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'terminal_grotesqueregular';
+    src: url('terminal-grotesque-webfont.woff2') format('woff2'),
+         url('terminal-grotesque-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background:rgb(185, 185, 254);
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 120%;
+}
+
+h1 {
+    font-family: "Slabo 27px", serif;
+}
+
+.special {
+    font-family:'terminal_grotesqueregular', monospace;
+}
