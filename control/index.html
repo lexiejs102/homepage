@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+    <head>
+        <title>plant simulator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://use.typekit.net/cuo2oqf.css">
+    </head>
+
+    <body>
+        <div class="buttons">
+            <button class="plant-btn">plant a seed</button>
+            <button class="sprout-btn">sprout!</button>
+            <button class="bloom-btn">bloom</button>
+            <button class="wilt-btn">wilt</button>
+            <button class="sun-btn">sunny</button>
+            <button class="cloudy-btn">cloudy</button>
+            <button class="dark-btn">overcast</button>
+            <button class="rain-btn">rain</button>
+            <button class="reset-btn">reset</button>
+        </div>
+
+        <div id="dialog">
+            <button class="close-btn">X</button>
+            <h2>Welcome!</h2>
+            <p>This is a plant growth simulator in which you control the environment.</p>
+        </div>
+
+        <div class="container">
+            <div class="box"></div>
+            <div class="seed"></div>
+
+            <div class="sprout">
+                <div class="stem"></div>
+                <div class="leafone"></div>
+                <div class="leaftwo"></div>
+            </div>
+
+            <div class="bloom">
+                <div class="flowerstem"></div>
+                <div class="petalone draggable"></div>
+                <div class="petaltwo draggable"></div>
+                <div class="petalthree draggable"></div>
+                <div class="petalfour draggable"></div>
+                <div class="petalfive draggable"></div>
+                <div class="center"></div>
+                <div class="flowerleafone"></div>
+                <div class="flowerleaftwo"></div>
+            </div>
+
+            <div class="weather">
+                <div class="sun draggable"></div>
+                <div class="cloudone ">
+                    <div class="ovalone"></div>
+                    <div class="circleone"></div>
+                    <div class="circletwo"></div>
+                </div>
+                <div class="cloudtwo ">
+                    <div class="ovaltwo "></div>
+                    <div class="circlethree "></div>
+                    <div class="circlefour "></div>
+                </div>
+                <div class="raincontainer">
+                    <img src="rainlayer1.png" class="rainone">
+                    <img src="rainlayer2.png" class="raintwo">
+                    <img src="rainlayer3.png" class="rainthree">
+                    <img src="rainlayer4.png" class="rainfour">
+                    <img src="rainlayer5.png" class="rainfive">
+                </div>
+
+            </div>
+        </div>
+
+        <script src="jquery-3.7.1.min"></script>
+        <script src="jquery-ui.min.js"></script>
+        <script src="main.js"></script>
+        
+    </body>
+
+</html>
