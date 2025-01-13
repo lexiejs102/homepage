@@ -30,7 +30,7 @@ h2 {
     font-family: "Public sans", sans-serif;
 }
 
-.text-container {
+.texts {
     display:flex;
     width:1300px;
     height:100vh;
